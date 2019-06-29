@@ -1,11 +1,19 @@
-# Review
+# Popular_Movie
+ * [] [Required Tasks](#through-this-project-you-will)
+ * [] [Common Project Requirements](#common-project-requirements)
+ * [] [User Interface - Function](#user-interface---function)
+ * [] [Network API Implementation](#network-api-implementation)
+ * [] [General Project Guidelines](#general-project-guidelines)
 
-# Through this project, you will:
+## Review
+ * []
+
+## Through this project, you will:
  * [] Build a UI layout for multiple Activities.
  * [] Launch these Activities via Intent.
  * [] Fetch data from themovieDB API.
 
-# Common Project Requirements
+## Common Project Requirements
  * [] App is written solely in the Java Programming Language.
  * [] Movies are displayed in the main layout via a grid of their corresponding movie poster thumbnails.
  * [] UI contains an element (i.e a spinner or settings menu) to toggle the sort order of the movies by: most popular, highest rated.
@@ -13,13 +21,13 @@
  * [] Movie details layout contains title, release date, movie poster, vote average, and plot synopsis.
  * [] App utilizes stable release versions of all libraries, Gradle, and Android Studio.
 
-# User Interface - Function
+## User Interface - Function
  * [] When a user changes the sort criteria (“most popular and highest rated”) the main view gets updated correctly.
  * [] When a movie poster thumbnail is selected, the movie details screen is launched.
 
-# Network API Implementation
+## Network API Implementation
  * [] In a background thread, app queries the /movie/popular or /movie/top_rated API for the sort criteria specified in the settings menu.
 
-# General Project Guidelines
+## General Project Guidelines
  * [] App conforms to common standards found in the Android Nanodegree General Project Guidelines
  (NOTE: For Stage 1 of the Popular Movies App, it is okay if the app does not restore the data using onSaveInstanceState/onRestoreInstanceState)

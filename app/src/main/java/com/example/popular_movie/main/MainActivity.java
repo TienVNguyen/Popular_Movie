@@ -5,11 +5,18 @@
  * Written by TIM or Tien Nguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, December 2018
  */
 
-package com.example.popular_movie;
+package com.example.popular_movie.main;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
+import com.example.popular_movie.R;
+
+/**
+ * {@link MainActivity}
+ *
+ * @author TienNguyen
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
